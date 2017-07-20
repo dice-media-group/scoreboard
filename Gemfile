@@ -41,6 +41,9 @@ group :development, :test do
   gem "pry-byebug"
   gem "pry-rails"
   gem "rspec-rails", "~> 3.6"
+  # automated testing
+  gem 'guard', '~> 2.14', '>= 2.14.1'
+  gem 'guard-rspec', '~> 4.7', '>= 4.7.3', require: false
 end
 
 group :development, :staging do
@@ -66,3 +69,7 @@ gem 'high_voltage'
 gem 'bourbon', '~> 5.0.0.beta.8'
 gem 'neat', '~> 2.1'
 gem 'refills', group: [:development, :test]
+
+## Apps specific gems
+#  pagination
+gem 'kaminari'
