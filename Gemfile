@@ -73,3 +73,5 @@ gem 'refills', group: [:development, :test]
 ## Apps specific gems
 #  pagination
 gem 'kaminari'
+# gamification
+gem 'gioco', '~> 1.1', '>= 1.1.1'
