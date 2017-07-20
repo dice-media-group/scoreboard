@@ -96,6 +96,7 @@ GEM
       activesupport
       capybara
       i18n
+    gioco (1.1.1)
     globalid (0.4.0)
       activesupport (>= 4.2.0)
     guard (2.14.1)
@@ -313,6 +314,7 @@ DEPENDENCIES
   factory_girl_rails
   flutie
   formulaic
+  gioco (~> 1.1, >= 1.1.1)
   guard (~> 2.14, >= 2.14.1)
   guard-rspec (~> 4.7, >= 4.7.3)
   high_voltage
